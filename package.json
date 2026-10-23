@@ -1,0 +1,16 @@
+{
+  "name": "reposted",
+  "version": "1.0.0",
+  "description": "A private feed that shows who in your friend group reposted what on TikTok, Instagram, YouTube and more.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
